@@ -12,3 +12,16 @@ export interface IContextState {
 export interface IActions {
   fetchWeather: Function;
 }
+
+export interface IThemeType {
+  primaryColor: string;
+  secondaryColor: string;
+  tertiaryColor: string;
+  quaternaryColor: string;
+  textColor: string;
+  backgroundColor: string;
+}
+
+export interface IThemeProps {
+  theme: IThemeType;
+}
